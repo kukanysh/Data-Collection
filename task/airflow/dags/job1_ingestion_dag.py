@@ -20,7 +20,7 @@ dag = DAG(
     'job1_continuous_ingestion',
     default_args=default_args,
     description='DAG 1: Continuous data ingestion from NewsAPI to Kafka',
-    schedule_interval='@hourly',
+    schedule_interval='*/1 * * * *',
     catchup=False,
     tags=['ingestion', 'kafka', 'newsapi']
 )
