@@ -85,7 +85,7 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__FERNET_KEY: 'ZmDfcTF7_60GrrY167zsiPd67pEvs0aGOv2oasOM1Pg='
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
-      NEWS_API_KEY: 'YOUR_API_KEY_HERE'
+      NEWS_API_KEY: 'a4490e3c26c14d15b30a06ea958a1c2a'
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./src:/opt/airflow/src
